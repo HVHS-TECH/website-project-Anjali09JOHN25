@@ -1,32 +1,16 @@
 <html>
-<head>
-<style>
 
 .container {
   display: grid;
-  grid-template-areas:
- grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto auto;
-  gap: 3px;
+  grid-template-columns: auto auto auto;
   background-color: dodgerblue;
-  padding: 5px;
-}
-
-.container div {
-  background-color: white;
   padding: 10px;
 }
-.container div.heading {
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
 
- 
-}
-.container div.main {
- 
-}
-.container div.main2 {
- 
-}
-.container div.footer {
-
-
-}
