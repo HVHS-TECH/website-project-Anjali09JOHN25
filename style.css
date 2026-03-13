@@ -10,3 +10,22 @@
   background-color: dodgerblue;
   padding: 5px;
 }
+
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.heading {
+
+ 
+}
+.container div.main {
+ 
+}
+.container div.main2 {
+ 
+}
+.container div.footer {
+
+
+}
