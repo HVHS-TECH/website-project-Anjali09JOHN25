@@ -1,0 +1,12 @@
+<html>
+<head>
+<style>
+
+.container {
+  display: grid;
+  grid-template-areas:
+   grid-template-columns: auto auto auto;
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
