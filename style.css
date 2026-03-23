@@ -1,13 +1,41 @@
-<html>
 
 .container {
   display: grid;
-  grid-template-columns: 30% 35% 35%;
-}
-.container div {
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
+  grid-template-columns: auto auto auto;
 }
 
+.logo{
+  grid-column-start: 1/4;
+  grid-column-end: 4/4;
+}
+
+.history{
+grid-column-start: 1/4;
+  grid-row-start: 2/4;
+  grid-row-end: 4/4;
+}
+
+.amusementparks{
+ grid-column: 1/4;
+}
+
+.beaches{
+ grid-column: 1/4;
+}
+
+.wildlife{
+ grid-column: 1/4;
+}
+
+.placestoeat{
+ grid-column: 1/4;
+}
+
+.footer{
+ grid-column: 1/4;
+}
+
+.container div{
+  border-style:solid;
+  padding: 15px;
+}
