@@ -7,37 +7,40 @@
 
 .logo{
   grid-column-start: 1;
-  grid-column-end: 4;  
+  grid-column-end: 4; 
+  height:300px; 
 }
 
 .history{
 grid-row-start:2;
 grid-row-end:7;
-height: 500px;
+height: 535px;
 
 }
 
 .amusementparks{
+ height: 250px; 
  
 }
 
 .beaches{
- 
+ height: 250px; 
 }
 
 .wildlife{
- 
+ height: 250px; 
 }
 
 .placestoeat{
-
+height: 250px; 
 }
 
 .footer{
 grid-row-start:8;
 grid-row-end: 9; 
 grid-column-start: 1;
-grid-column-end: 4;  
+grid-column-end: 4;
+height: 60px;  
 
 }
 
