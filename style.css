@@ -13,6 +13,7 @@
 .history{
 grid-row-start:2;
 grid-row-end:7;
+height: 500px;
 
 }
 
