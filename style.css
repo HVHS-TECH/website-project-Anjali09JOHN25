@@ -5,34 +5,32 @@
 }
 
 .logo{
-  grid-column-start: 
-  grid-column-end: 
+  
+  
 }
 
 .history{
-grid-column-start: 1/4;
-  grid-row-start: 2/4;
-  grid-row-end: 4/4;
+
 }
 
 .amusementparks{
- grid-column: 1/4;
+ 
 }
 
 .beaches{
- grid-column: 1/4;
+ 
 }
 
 .wildlife{
- grid-column: 1/4;
+ 
 }
 
 .placestoeat{
- grid-column: 1/4;
+
 }
 
 .footer{
- grid-column: 1/4;
+
 }
 
 .container div{
