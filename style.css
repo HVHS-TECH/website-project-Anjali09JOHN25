@@ -9,6 +9,7 @@
   grid-column-start: 1;
   grid-column-end: 4; 
   height:300px; 
+  place-items:center;
 }
 
 .history{
