@@ -23,7 +23,8 @@ height: 535px;
 }
 
 .amusementparks{
- height: 250px; 
+ place-items: center;
+  height: 250px; 
  
 }
 
