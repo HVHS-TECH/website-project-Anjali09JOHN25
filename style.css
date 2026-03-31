@@ -11,14 +11,16 @@
   grid-column-end: 4; 
   height:300px; 
   background-color:lightcyan;
- 
 }
 
 .history{
 grid-row-start:2;
 grid-row-end:7;   
-height: 535px;
-background-color:rgb(237, 199, 199);
+height: 540px;
+background-color:rgb(158, 177, 206); 
+border: rgb(102, 102, 160);
+border-radius: 10px;
+ border-width: 5px;
 
 }
 
@@ -26,6 +28,7 @@ background-color:rgb(237, 199, 199);
   height: 250px; 
   border: rgb(102, 102, 160);
 border-radius: 10px;
+  border-width: 5px;
 
 }
 
@@ -33,18 +36,21 @@ border-radius: 10px;
  height: 250px; 
  border: rgb(102, 102, 160);
 border-radius: 10px;
+ border-width: 5px;
 }
 
 .wildlife{
  height: 250px; 
  border: rgb(102, 102, 160);
 border-radius: 10px;
+ border-width: 5px;
 }
 
 .placestoeat{
 height: 250px; 
 border: rgb(102, 102, 160);
 border-radius: 10px;
+ border-width: 5px;
 }
 
 .footer{
@@ -54,6 +60,9 @@ grid-column-start: 1;
 grid-column-end: 4;
 height: 60px; 
  background-color:lightcyan; 
+border: rgb(102, 102, 160);
+border-radius: 10px;
+ border-width: 5px;
 
 }
 
