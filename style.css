@@ -24,19 +24,27 @@ background-color:rgb(237, 199, 199);
 
 .amusementparks{
   height: 250px; 
+  border: rgb(102, 102, 160);
+border-radius: 10px;
 
 }
 
 .beaches{
  height: 250px; 
+ border: rgb(102, 102, 160);
+border-radius: 10px;
 }
 
 .wildlife{
  height: 250px; 
+ border: rgb(102, 102, 160);
+border-radius: 10px;
 }
 
 .placestoeat{
 height: 250px; 
+border: rgb(102, 102, 160);
+border-radius: 10px;
 }
 
 .footer{
