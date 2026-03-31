@@ -9,9 +9,8 @@
 
   grid-column-start: 1;
   grid-column-end: 4; 
- align-self: center;
-  justify-self: center;
   height:300px; 
+  background-color:lightcyan;
  
 }
 
