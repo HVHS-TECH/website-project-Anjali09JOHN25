@@ -117,26 +117,3 @@ padding:15px;
   flex:1;
 }
 
-
-animal-row{
-  display:flex;
-  align-items: center;
-  gap: 20px;
-
-  background-color: white;
-  border: 5px solid rgb(102, 102, 160)
-
-padding:15px;
-  margin-bottom:20px;
-}
-
-.animal-row img {
-  width: 250px;
-  height: 180px;
-  object-fit: cover;
-  border-radius:10px;
-}
-
-.animal-text{
-  flex:1;
-}
