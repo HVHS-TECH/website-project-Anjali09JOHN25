@@ -19,11 +19,11 @@ overflow: hidden;
 }
 
 .logo img{
-  width:70%;
+  width:100%;
   height:600px;
   object-fit: cover;
   display: block;
-  position:center;
+
 }
 
 .overlay-text {
