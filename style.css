@@ -119,6 +119,7 @@ border: 3px solid rgb(102, 102, 160);
 .home-button img{
   width:30px;
   height:30px;
+  font:poppins;
 }
 
 .home-button:hover{
