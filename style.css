@@ -1,27 +1,54 @@
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f9ff;
+}
 
 .container {
   display: grid;
-  grid-template-columns: auto 35% 35%;
+  grid-template-columns: 30% 35% 35%;
   grid-template-rows: auto auto auto;
+  gap:15px;
+  padding:15px;
 }
 
 .logo{
+grid-column: 1/-1;
+padding:0;
+margin: 0;
+overflow:hidden;
+border: none;
+}
 
-  grid-column-start: 1;
-  grid-column-end: 4; 
-  height:300px; 
-  background-color:lightcyan;
+.logo img{
+  width:100%;
+  height:200px;
+  object-fit: cover;
+  display: block;
 }
 
 .history{
-grid-row-start:2;
-grid-row-end:7;   
-height: 540px;
+grid-row:2/4;
 background-color:rgb(158, 177, 206); 
-border: rgb(102, 102, 160);
-border-radius: 10px;
- border-width: 5px;
+display: flex;
+flex-direction: column;
+justify-content:center; 
+align-items: center;
+text-align: center;
+}
 
+.card{
+  background-color: white;
+  text-decoration: none;
+  color:black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  transition: 0.2 ease;
 }
 
 .amusementparks{
@@ -32,42 +59,84 @@ border-radius: 10px;
 
 }
 
-.beaches{
- height: 250px; 
- border: rgb(102, 102, 160);
-border-radius: 10px;
- border-width: 5px;
+.card img{
+  width:120px;
+  height:120px;
 }
 
-.wildlife{
- height: 250px; 
- border: rgb(102, 102, 160);
-border-radius: 10px;
- border-width: 5px;
-}
-
-.placestoeat{
-height: 250px; 
-border: rgb(102, 102, 160);
-border-radius: 10px;
- border-width: 5px;
+.card:hover{
+  transform: scale(1.05);
+  background-color:rgb(240, 240, 255)
 }
 
 .footer{
-grid-row-start:8;
-grid-row-end: 9; 
-grid-column-start: 1;
-grid-column-end: 4;
-height: 60px; 
- background-color:lightcyan; 
-border: rgb(102, 102, 160);
-border-radius: 10px;
- border-width: 5px;
-
-}
-
-.container div{
-  border-style:solid;
+  grid-column: 1/4;
+  background-color: lightcyan;
+  text-align: center;
   padding: 15px;
+
+  border: 5px solid rgb(102, 102, 160)
+border-radius: 10px;
 }
 
+.home-link{
+  display: flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  color:black;
+  margin-bottom: 20px;
+}
+
+.home-link img{
+  width:40px;
+  height:40px;
+
+}
+
+.beach-row{
+  display:flex;
+  align-items: center;
+  gap: 20px;
+
+  background-color: white;
+  border: 5px solid rgb(102, 102, 160)
+
+padding:15px;
+  margin-bottom:20px;
+}
+
+.beach-row img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius:10px;
+}
+
+.beach-text{
+  flex:1;
+}
+
+
+animal-row{
+  display:flex;
+  align-items: center;
+  gap: 20px;
+
+  background-color: white;
+  border: 5px solid rgb(102, 102, 160)
+
+padding:15px;
+  margin-bottom:20px;
+}
+
+.animal-row img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius:10px;
+}
+
+.animal-text{
+  flex:1;
+}
