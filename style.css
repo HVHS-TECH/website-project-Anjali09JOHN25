@@ -13,18 +13,16 @@ body {
 }
 
 .logo{
-grid-column: 1/3;
-grid-row:1;
+grid-column: 1/-1;
 padding:0;
 margin: 0;
-overflow:hidden;
-border: none;
 }
 
 .logo img{
   width:100%;
-  height:200px;
+  height:260px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
